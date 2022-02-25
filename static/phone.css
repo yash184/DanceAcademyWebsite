@@ -1,0 +1,7 @@
+body{
+    background-color: rgb(12, 206, 54);
+}
+
+#navbar{
+    flex-direction: column;
+}

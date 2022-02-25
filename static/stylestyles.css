@@ -1,0 +1,101 @@
+#missionsection{
+    height: 600px;
+    margin: auto;
+    width: 67%;
+    display: block;
+    /* background-color: rgb(224, 99, 99); */
+}
+#missionsection h2{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 12px
+}
+
+.card{
+    display: inline-block;
+    border:2px solid black;
+    border-radius: 5px;
+    width: 28%;
+    height: 209px;
+    margin: 2px 20px ;
+    background-color: rgb(233, 115, 19);
+}
+.card h3{
+    text-align: center;
+    padding: 2px 15px;
+    margin: 2px 4px;
+    margin-top: 4px;
+}
+
+.card-box{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#card-img1{
+    height: 118px;
+    padding: 0px -10px;
+    margin: 4px 21px;
+    
+}
+
+#card-img1 img{
+    height: inherit; 
+    padding: 0px 14px;
+}
+#card-img2{
+    height: 118px;
+    padding: 0px -10px;
+    margin: 2px 0px;
+    
+}
+
+#card-img2 img{
+    height: inherit; 
+    padding: 0px 14px;
+}
+#card-img3{
+    height: 118px;
+    padding: 0px -10px;
+    margin: 4px 0px;
+    
+}
+
+#card-img3 img{
+    height: inherit; 
+    padding: 0px 14px;
+}
+#card-img4{
+    height: 118px;
+    padding: 0px -10px;
+    margin: 4px 18px;
+    
+}
+
+#card-img4 img{
+    height: inherit; 
+    padding: 0px 14px;
+}
+#card-img5{
+    height: 118px;
+    padding: 0px -10px;
+    margin: 4px 30px;
+    
+}
+
+#card-img5 img{
+    height: inherit; 
+    padding: 0px 14px;
+}
+#card-img6{
+    height: 118px;
+    padding: 0px -10px;
+    margin: 4px 64px;
+    
+}
+
+#card-img6 img{
+    height: inherit; 
+    padding: 0px 14px;
+}

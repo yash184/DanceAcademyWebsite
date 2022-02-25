@@ -1,0 +1,53 @@
+extends base.pug
+
+block scripts 
+  //- script(src='/static/index.js')
+
+block style 
+    style 
+      include ../static/style.css
+      include ../static/stylestyles.css
+
+block content 
+    section#introsection
+              div Welcome to Zingat Academy
+              div.small Style Section
+    section#missionsection 
+              h2 Our Styles
+              div.card
+                  h3 Hip-Hop
+                  div.card-box
+                      div#card-img1
+                          img(src="/static/img/hip-hop.jpg", alt="hip-hop dance")  
+                      
+              
+              div.card
+                  h3 Contemporary
+                  div.card-box
+                      div#card-img2
+                          img(src="/static/img/contemporary.jpg", alt="contemporary dance") 
+
+              div.card
+                  h3 Dance Workout
+                  div.card-box
+                      div#card-img3
+                          img(src="/static/img/danceworkout.jpg", alt="dance workout")
+
+              div.card
+                  h3 K-Pop
+                  div.card-box
+                      div#card-img4
+                          img(src="/static/img/k-pop.jpg", alt="k-pop dance")    
+
+              div.card
+                  h3 Salsa
+                  div.card-box
+                      div#card-img5
+                          img(src="/static/img/salsa.jpg", alt="salsa dance")  
+
+              div.card
+                  h3 Ballet
+                  div.card-box
+                      div#card-img6
+                          img(src="/static/img/ballet.jpg", alt="ballet dance")   
+                                   

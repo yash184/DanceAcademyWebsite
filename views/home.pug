@@ -1,0 +1,48 @@
+extends base.pug
+
+block scripts 
+  script(src='/static/index.js')
+
+block style 
+    style 
+      include ../static/style.css
+      include ../static/phone.css
+
+block content 
+    section#introsection
+              div Welcome to Zingat Academy
+              div.small Do dance Everywhere
+    section#missionsection 
+              h2 Our Mission
+              div.card
+                  h3 Dance perfection
+                  div.card-box
+                      div.card-img
+                          img(src="/static/img/3hr.jpg", alt="hritik roshan")
+                      div.card-content
+                           p This academy is world best academy because hritik roshan is our Owner
+                     
+              div.card
+                  h3 Dance the Way you like
+                  div.card-box
+                      div.card-img
+                          img(src="/static/img/2allu.jpg", alt="allu arjun")
+                      div.card-content
+                           p This academy teach you many different types of dance steps 
+                    
+              div.card
+                  h3 Expert teaching
+                  div.card-box
+                      div.card-img
+                          img(src="/static/img/1tig.jpg", alt="Tiger shroff")
+                      div.card-content
+                          p Tiger shroff is your teacher one day in month.
+                    
+
+    section#sponsersection 
+              h3 Our sponser
+              div#sopnser
+                  img(src="/static/img/google.jpg", alt="sponser by google", Class="spImage")
+                  img(src="/static/img/redbull.jpg", alt="sponser by redbull", Class="spImage")
+                  img(src="/static/img/youtube.png", alt="sponser by youtube", Class="spImage")
+                  img(src="/static/img/adidass.png", alt="sponser by adidass", Class="spImage")

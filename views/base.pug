@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Zingat Dance Academy
+    block scripts
+    block style  
+  body
+    nav#navbar
+        ul 
+            div#logo
+                img(src="/static/img/logo.jpg", alt="logo")
+                |ZDA
+            li #[a(href="/") Home]
+            li #[a(href="/events") Events] 
+            li #[a(href="/styles") Styles]
+            li #[a(href="/classschedule") Class Schedule]
+            li #[a(href="/contact") Contact Us]
+    block content
+    footer#footer
+      | Copyright © 2021 ZingatDanceAcademy.com | All Rights Reserved
+      
